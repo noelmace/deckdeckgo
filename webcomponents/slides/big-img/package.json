@@ -1,6 +1,6 @@
 {
-  "name": "@deckdeckgo/slide-big-img",
-  "version": "1.0.0-rc.1",
+  "name": "@wof-show/deckdeckgo-slide-big-img",
+  "version": "0.0.0-alpha.3",
   "description": "The Big Image template is display a image fullscreen and permits to show parts of it",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
