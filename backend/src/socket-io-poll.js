@@ -2,14 +2,17 @@ let polls = [];
 
 module.exports = server => {
   const socketIO = require("socket.io").listen(server, {
-    transports : [ "websocket", "xhr-polling" ],
-    path : "/poll"
+    transports: ["websocket", "xhr-polling"],
+    path: "/poll"
   });
 
   socketIO.set("origins", "*:*");
 
-  console.log("\x1b[36m%s\x1b[0m", "[DeckDeckGo]",
-              "Socket listening. Path: /poll");
+  console.log(
+    "\x1b[36m%s\x1b[0m",
+    "[DeckDeckGo]",
+    "Socket listening. Path: /poll"
+  );
 
   socketIO.sockets.on("connection", socket => {
     socket.on("poll", async req => {
@@ -65,17 +68,18 @@ module.exports = server => {
 function addOrUpdatePoll(key, poll) {
   return new Promise(async resolve => {
     if (!polls || polls.length <= 0) {
-      polls.push({key : key, poll : poll});
+      polls.push({ key: key, poll: poll });
 
       resolve();
       return;
     }
 
-    const index =
-        polls.findIndex(filteredPoll => { return filteredPoll.key === key; });
+    const index = polls.findIndex(filteredPoll => {
+      return filteredPoll.key === key;
+    });
 
     if (index === -1) {
-      polls.push({key : key, poll : poll});
+      polls.push({ key: key, poll: poll });
     } else {
       polls[index].poll = poll;
     }
@@ -93,8 +97,9 @@ function generateUniqueAvailableKey(loop) {
       return;
     }
 
-    const index =
-        polls.findIndex(filteredPoll => { return filteredPoll.key === key; });
+    const index = polls.findIndex(filteredPoll => {
+      return filteredPoll.key === key;
+    });
 
     if (index > -1) {
       // Avoid loop without end
@@ -117,8 +122,9 @@ function findPoll(key) {
       return;
     }
 
-    const poll =
-        polls.find(filteredPoll => { return filteredPoll.key === key; });
+    const poll = polls.find(filteredPoll => {
+      return filteredPoll.key === key;
+    });
 
     resolve(poll);
   });
