@@ -1531,5 +1531,3 @@ declare module "@stencil/core" {
     }
   }
 }
-
-
