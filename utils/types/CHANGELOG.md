@@ -38,7 +38,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- new definition for `bar chart` and `poll`, as these information are shared across components and apps
+- new definition for `bar chart` and `poll`, as these information are shared
+  across components and apps
 
 ### Refactoring
 
@@ -51,7 +52,8 @@ To infinity and beyond 🚀
 ### Breaking Changes
 
 - `SLIDES_UPDATE` replaced by `DECK_UPDATE` and `SLIDE_UPDATE`
-- `DeckdeckgoSlideDefinition` definition modified and included in a new `DeckdeckgoEventDeck`
+- `DeckdeckgoSlideDefinition` definition modified and included in a new
+  `DeckdeckgoEventDeck`
 
 ### Features
 
@@ -75,7 +77,8 @@ To infinity and beyond 🚀
 
 ### Note about v1.0.0-rc.1
 
-The first users began to test, and to create content in, our web open source editor for presentations (`studio`)
+The first users began to test, and to create content in, our web open source
+editor for presentations (`studio`)
 
 <a name="1.0.0-alpha.11"></a>
 

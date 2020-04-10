@@ -31,15 +31,20 @@
 
 ## Getting Started
 
-Start your new presentation using our 👉 [online Editor](https://deckdeckgo.com) 👈 or as a developer by following the quick [Getting Started guide](https://docs.deckdeckgo.com/docs).
+Start your new presentation using our 👉 [online Editor](https://deckdeckgo.com)
+👈 or as a developer by following the quick
+[Getting Started guide](https://docs.deckdeckgo.com/docs).
 
 ## Documentation
 
-The developers' documentation is available online at [https://docs.deckdeckgo.com](https://docs.deckdeckgo.com).
+The developers' documentation is available online at
+[https://docs.deckdeckgo.com](https://docs.deckdeckgo.com).
 
 ## Contributing
 
-Are you interested to contribute to our open source project? That would be awesome 👍 Have a look to our contributing [guide](CONTRIBUTING.md) to get started.
+Are you interested to contribute to our open source project? That would be
+awesome 👍 Have a look to our contributing [guide](CONTRIBUTING.md) to get
+started.
 
 ## Progressive Web Apps
 

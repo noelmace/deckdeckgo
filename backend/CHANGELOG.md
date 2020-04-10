@@ -26,4 +26,5 @@ To infinity and beyond 🚀
 
 ### Features
 
-- interact with your audience with the new live `poll` slide template ([#471](https://github.com/deckgo/deckdeckgo/issues/471))
+- interact with your audience with the new live `poll` slide template
+  ([#471](https://github.com/deckgo/deckdeckgo/issues/471))

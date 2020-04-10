@@ -30,7 +30,8 @@ To infinity and beyond 🚀
 
 - draw arrows ([#625](https://github.com/deckgo/deckdeckgo/issues/625))
 
-Note: new feature temporary uncommented until next release which will include the release of the starter kit
+Note: new feature temporary uncommented until next release which will include
+the release of the starter kit
 
 <a name="1.0.0-rc.2-7"></a>
 
@@ -38,7 +39,8 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Features
 
-- load new components `@deckdeckgo/drag-resize-rotate` and `@deckdeckgo/slide-aspect-ratio`
+- load new components `@deckdeckgo/drag-resize-rotate` and
+  `@deckdeckgo/slide-aspect-ratio`
 
 <a name="1.0.0-rc.2-6"></a>
 
@@ -54,7 +56,8 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Features
 
-- update last libs and notably `<deckgo-charts/>` and `<deckgo-lazy-img/>` which contains improvements in case of custom loader
+- update last libs and notably `<deckgo-charts/>` and `<deckgo-lazy-img/>` which
+  contains improvements in case of custom loader
 
 <a name="1.0.0-rc.2-4"></a>
 
@@ -94,7 +97,8 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Features
 
-- interact with your audience with the new live `poll` slide template ([#471](https://github.com/deckgo/deckdeckgo/issues/471))
+- interact with your audience with the new live `poll` slide template
+  ([#471](https://github.com/deckgo/deckdeckgo/issues/471))
 
 <a name="1.0.0-rc.1-1"></a>
 
@@ -102,7 +106,8 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Fix
 
-- fix notes displayed on template split ([#472](https://github.com/deckgo/deckdeckgo/issues/472))
+- fix notes displayed on template split
+  ([#472](https://github.com/deckgo/deckdeckgo/issues/472))
 
 <a name="1.0.0-rc.1"></a>
 
@@ -110,8 +115,10 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Features
 
-- rework UX and design of the remote controller ([#228](https://github.com/deckgo/deckdeckgo/issues/228))
-- sync and display deck and slides content ([#450](https://github.com/deckgo/deckdeckgo/issues/450))
+- rework UX and design of the remote controller
+  ([#228](https://github.com/deckgo/deckdeckgo/issues/228))
+- sync and display deck and slides content
+  ([#450](https://github.com/deckgo/deckdeckgo/issues/450))
 
 <a name="1.0.0-beta.2"></a>
 
@@ -132,7 +139,10 @@ Note: new feature temporary uncommented until next release which will include th
 
 ### Note about v1.0.0-beta.1
 
-The first users began to test, and to create content in, our web open source editor for presentations (`studio`) but there is still a UX/design improvement I would like to develop for the remote ([#228](https://github.com/deckgo/deckdeckgo/issues/228))
+The first users began to test, and to create content in, our web open source
+editor for presentations (`studio`) but there is still a UX/design improvement I
+would like to develop for the remote
+([#228](https://github.com/deckgo/deckdeckgo/issues/228))
 
 <a name="1.0.0-alpha.12"></a>
 
@@ -164,7 +174,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Fix
 
-- update `ion-datetime` usage to follow last Ionic changes ([#138](https://github.com/deckgo/deckdeckgo/issues/138))
+- update `ion-datetime` usage to follow last Ionic changes
+  ([#138](https://github.com/deckgo/deckdeckgo/issues/138))
 
 ### Libs
 
@@ -176,7 +187,9 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- deep link the remote control with the upcoming DeckDeckGo studio respectively auto connect the remote control to a particular deck on start (if information is provided)
+- deep link the remote control with the upcoming DeckDeckGo studio respectively
+  auto connect the remote control to a particular deck on start (if information
+  is provided)
 
 <a name="1.0.0-alpha.7"></a>
 
@@ -184,8 +197,10 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- user the force, Luke! swipe your slides like a Jedi ([#15](https://github.com/deckgo/deckdeckgo-app/issues/15))
-- jump to a particular slide ([#14](https://github.com/deckgo/deckdeckgo-app/issues/14))
+- user the force, Luke! swipe your slides like a Jedi
+  ([#15](https://github.com/deckgo/deckdeckgo-app/issues/15))
+- jump to a particular slide
+  ([#14](https://github.com/deckgo/deckdeckgo-app/issues/14))
 
 <a name="1.0.0-alpha.6"></a>
 
@@ -201,11 +216,15 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- arrow slide next prev with slide animation (= reveal) ([#3](https://github.com/deckgo/deckdeckgo-app/issues/3))
+- arrow slide next prev with slide animation (= reveal)
+  ([#3](https://github.com/deckgo/deckdeckgo-app/issues/3))
 
 #### Notes
 
-The above actions are compatible with the DeckDeckGo starter kit v1.0.0-beta.13. If the app would be use with a previous version where the changes would have not been reflected, using the arrow buttons might trigger the swipe of two slides at the same time...upgrade your gear 😉
+The above actions are compatible with the DeckDeckGo starter kit v1.0.0-beta.13.
+If the app would be use with a previous version where the changes would have not
+been reflected, using the arrow buttons might trigger the swipe of two slides at
+the same time...upgrade your gear 😉
 
 <a name="1.0.0-alpha.4"></a>
 
@@ -214,7 +233,8 @@ The above actions are compatible with the DeckDeckGo starter kit v1.0.0-beta.13.
 ### Features
 
 - add timer features ([#4](https://github.com/deckgo/deckdeckgo-app/issues/4))
-- display editor notes ([#12](https://github.com/deckgo/deckdeckgo-app/issues/12))
+- display editor notes
+  ([#12](https://github.com/deckgo/deckdeckgo-app/issues/12))
 
 <a name="1.0.0-alpha.3"></a>
 
@@ -222,7 +242,8 @@ The above actions are compatible with the DeckDeckGo starter kit v1.0.0-beta.13.
 
 ### Features
 
-- hello dark mode my old friend ([#8](https://github.com/deckgo/deckdeckgo-app/issues/8))
+- hello dark mode my old friend
+  ([#8](https://github.com/deckgo/deckdeckgo-app/issues/8))
 
 <a name="1.0.0-alpha.2"></a>
 
@@ -230,4 +251,5 @@ The above actions are compatible with the DeckDeckGo starter kit v1.0.0-beta.13.
 
 ### Features
 
-- remote play/pause Youtube video ([#7](https://github.com/deckgo/deckdeckgo-app/issues/7))
+- remote play/pause Youtube video
+  ([#7](https://github.com/deckgo/deckdeckgo-app/issues/7))

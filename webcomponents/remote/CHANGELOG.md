@@ -59,7 +59,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- drawing circle clear the all pane ([#66](https://github.com/deckgo/deckdeckgo/issues/66))
+- drawing circle clear the all pane
+  ([#66](https://github.com/deckgo/deckdeckgo/issues/66))
 
 <a name="1.0.0-rc.2"></a>
 
@@ -87,7 +88,8 @@ To infinity and beyond 🚀
 
 ### Note about v1.0.0-rc.1
 
-The first users began to test, and to create content in, our web open source editor for presentations (`studio`)
+The first users began to test, and to create content in, our web open source
+editor for presentations (`studio`)
 
 <a name="1.0.0-alpha.11"></a>
 
@@ -135,7 +137,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add an attribute `autoConnect` if you don't wish the component to establish a connection on load
+- add an attribute `autoConnect` if you don't wish the component to establish a
+  connection on load
 - add a `disconnect` method
 
 <a name="1.0.0-alpha.5"></a>
@@ -144,7 +147,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Lib
 
-- update Stencil and other libs ([758ea62](https://github.com/deckgo/deckdeckgo-remote/commit/758ea62c884a67195753f805088d11e43a516873))
+- update Stencil and other libs
+  ([758ea62](https://github.com/deckgo/deckdeckgo-remote/commit/758ea62c884a67195753f805088d11e43a516873))
 
 <a name="1.0.0-alpha.4"></a>
 
@@ -152,7 +156,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- include new types with slide definition ([#3](https://github.com/deckgo/deckdeckgo-remote/issues/3))
+- include new types with slide definition
+  ([#3](https://github.com/deckgo/deckdeckgo-remote/issues/3))
 
 <a name="1.0.0-alpha.3"></a>
 
@@ -160,8 +165,10 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Breaking Changes
 
-- property `slides` has been renamed to `length` ([#1](https://github.com/deckgo/deckdeckgo-remote/issues/1))
+- property `slides` has been renamed to `length`
+  ([#1](https://github.com/deckgo/deckdeckgo-remote/issues/1))
 
 ### Features
 
-- add a new property `slides` to transmit the ordered list of slides ([#2](https://github.com/deckgo/deckdeckgo-remote/issues/2))
+- add a new property `slides` to transmit the ordered list of slides
+  ([#2](https://github.com/deckgo/deckdeckgo-remote/issues/2))
