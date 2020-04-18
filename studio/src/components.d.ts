@@ -1565,5 +1565,3 @@ declare module "@stencil/core" {
     }
   }
 }
-
-
