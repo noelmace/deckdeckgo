@@ -66,7 +66,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- add `getSlideDefinition` and `getAttributesDefinition` functions to deck utils as these are notably used in the editor now too
+- add `getSlideDefinition` and `getAttributesDefinition` functions to deck utils
+  as these are notably used in the editor now too
 - bundle package with rollup
 
 <a name="1.0.0-rc.1-2"></a>
@@ -83,7 +84,8 @@ To infinity and beyond 🚀
 
 ### Fix
 
-- improve regex of the `cleanContent` function in order to remove only attributes not content/text
+- improve regex of the `cleanContent` function in order to remove only
+  attributes not content/text
 
 <a name="1.0.0-rc.1"></a>
 
