@@ -100,7 +100,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- new highlight-code properties and variables related to the display card breaking change
+- new highlight-code properties and variables related to the display card
+  breaking change
 
 <a name="1.0.0-rc.8"></a>
 
@@ -152,10 +153,13 @@ To infinity and beyond 🚀
 
 ### Features
 
-- update `slide chart` and `charts` components to follow their integration in the editor
+- update `slide chart` and `charts` components to follow their integration in
+  the editor
 - update most recent libs
-- hello darkness my old friend switcher ([#419](https://github.com/deckgo/deckdeckgo/issues/419))
-- add youtube video to documentation ([#60](https://github.com/deckgo/deckdeckgo/issues/60))
+- hello darkness my old friend switcher
+  ([#419](https://github.com/deckgo/deckdeckgo/issues/419))
+- add youtube video to documentation
+  ([#60](https://github.com/deckgo/deckdeckgo/issues/60))
 
 <a name="1.0.0-rc.4-3"></a>
 
@@ -239,7 +243,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- document webpack markdown plugin option to provide an alternative path as source file
+- document webpack markdown plugin option to provide an alternative path as
+  source file
 
 <a name="1.0.0-rc.1"></a>
 
@@ -247,7 +252,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- remove `ion-split-pane` in order to be able to `prerender` the documentation ([#59](https://github.com/deckgo/deckdeckgo/issues/59))
+- remove `ion-split-pane` in order to be able to `prerender` the documentation
+  ([#59](https://github.com/deckgo/deckdeckgo/issues/59))
 
 ### Libs
 
@@ -255,7 +261,8 @@ To infinity and beyond 🚀
 
 ### Note about v1.0.0-rc.1
 
-The first users began to test, and to create content in, our web open source editor for presentations (`studio`)
+The first users began to test, and to create content in, our web open source
+editor for presentations (`studio`)
 
 <a name="1.0.0-alpha.25"></a>
 
@@ -263,7 +270,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Breaking Changes
 
-- add new components `<deckgo-reveal/>` and `<deckgo-reveal-list/>` to make elements and texts appear one line at a time
+- add new components `<deckgo-reveal/>` and `<deckgo-reveal-list/>` to make
+  elements and texts appear one line at a time
 
 ### Features
 
@@ -291,7 +299,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- improve demo slides in the documentation ([#199](https://github.com/deckgo/deckdeckgo/issues/199))
+- improve demo slides in the documentation
+  ([#199](https://github.com/deckgo/deckdeckgo/issues/199))
 - add new attributes to the component `inline-editor`
 - add new template `deckgo-slide-countdown`
 - add new attribute to the component `lazy-img`
@@ -302,7 +311,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add new `lineNumbers` option and relative CSS4 variables to the component `highlight-code`
+- add new `lineNumbers` option and relative CSS4 variables to the component
+  `highlight-code`
 
 <a name="1.0.0-alpha.21"></a>
 
@@ -368,7 +378,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- update documentation inline editor hidden not applicable elements instead of hidden
+- update documentation inline editor hidden not applicable elements instead of
+  hidden
 
 <a name="1.0.0-alpha.13"></a>
 
@@ -428,7 +439,8 @@ The first users began to test, and to create content in, our web open source edi
 ### Features
 
 - document the brand new dead simple Web Component to lazy load images
-- add some methods and attributes used to handle images and background in the editor
+- add some methods and attributes used to handle images and background in the
+  editor
 
 <a name="1.0.0-alpha.7"></a>
 
@@ -436,7 +448,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- this highlight-code component has now a default color for the background of the highlighted lines
+- this highlight-code component has now a default color for the background of
+  the highlighted lines
 
 <a name="1.0.0-alpha.6"></a>
 
@@ -468,8 +481,10 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add slot `actions` ([b124614](https://github.com/deckgo/deckdeckgo-docs/commit/b12461406331aa50fb2612c096123bd70fedaa71))
-- slot `backgorund` is now cloned ([e7c8b15](https://github.com/deckgo/deckdeckgo-docs/commit/e7c8b150596c30ac7005a1695fc877eb3fba691a))
+- add slot `actions`
+  ([b124614](https://github.com/deckgo/deckdeckgo-docs/commit/b12461406331aa50fb2612c096123bd70fedaa71))
+- slot `backgorund` is now cloned
+  ([e7c8b15](https://github.com/deckgo/deckdeckgo-docs/commit/e7c8b150596c30ac7005a1695fc877eb3fba691a))
 
 <a name="1.0.0-alpha.2"></a>
 
@@ -477,9 +492,15 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add Nodejs prerequisite ([#7](https://github.com/deckgo/deckdeckgo-docs/issues/7))
-- add chapter "publish" ([#6](https://github.com/deckgo/deckdeckgo-docs/issues/6))
-- improve chapter "theming" ([#5](https://github.com/deckgo/deckdeckgo-docs/issues/5))
-- add chapter "running" ([#4](https://github.com/deckgo/deckdeckgo-docs/issues/4))
-- add chapter "remote control" ([#3](https://github.com/deckgo/deckdeckgo-docs/issues/3))
-- add chapter "open source and repos" ([#2](https://github.com/deckgo/deckdeckgo-docs/issues/2))
+- add Nodejs prerequisite
+  ([#7](https://github.com/deckgo/deckdeckgo-docs/issues/7))
+- add chapter "publish"
+  ([#6](https://github.com/deckgo/deckdeckgo-docs/issues/6))
+- improve chapter "theming"
+  ([#5](https://github.com/deckgo/deckdeckgo-docs/issues/5))
+- add chapter "running"
+  ([#4](https://github.com/deckgo/deckdeckgo-docs/issues/4))
+- add chapter "remote control"
+  ([#3](https://github.com/deckgo/deckdeckgo-docs/issues/3))
+- add chapter "open source and repos"
+  ([#2](https://github.com/deckgo/deckdeckgo-docs/issues/2))
