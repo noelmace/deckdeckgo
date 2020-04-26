@@ -4,7 +4,8 @@
 
 ### Features
 
-- make code white-space a css variable ([#707](https://github.com/deckgo/deckdeckgo/issues/707))
+- make code white-space a css variable
+  ([#707](https://github.com/deckgo/deckdeckgo/issues/707))
 
 <a name="1.0.2"></a>
 
@@ -61,7 +62,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- new optional terminal style "Ubuntu" ([#623](https://github.com/deckgo/deckdeckgo/issues/623))
+- new optional terminal style "Ubuntu"
+  ([#623](https://github.com/deckgo/deckdeckgo/issues/623))
 
 <a name="1.0.0-rc.2-1"></a>
 
@@ -69,7 +71,8 @@ To infinity and beyond 🚀
 
 ### Features
 
-- if the language definition doesn't exist or if unpkg is down, display code anyway
+- if the language definition doesn't exist or if unpkg is down, display code
+  anyway
 
 <a name="1.0.0-rc.2"></a>
 
@@ -77,7 +80,9 @@ To infinity and beyond 🚀
 
 ### Breaking Changes
 
-- as of now, code will be per default displayed in a stylish card. you could opt out setting the property `carbon` to `false` ([#525](https://github.com/deckgo/deckdeckgo/issues/525))
+- as of now, code will be per default displayed in a stylish card. you could opt
+  out setting the property `carbon` to `false`
+  ([#525](https://github.com/deckgo/deckdeckgo/issues/525))
 
 <a name="1.0.0-rc.1-3"></a>
 
@@ -93,7 +98,8 @@ To infinity and beyond 🚀
 
 ### Fix
 
-- wrong code highlight when line numbers are off ([#423](https://github.com/deckgo/deckdeckgo/issues/423))
+- wrong code highlight when line numbers are off
+  ([#423](https://github.com/deckgo/deckdeckgo/issues/423))
 
 <a name="1.0.0-rc.1-1"></a>
 
@@ -113,7 +119,8 @@ To infinity and beyond 🚀
 
 ### Note about v1.0.0-rc.1
 
-The first users began to test, and to create content in, our web open source editor for presentations (`studio`)
+The first users began to test, and to create content in, our web open source
+editor for presentations (`studio`)
 
 <a name="1.0.0-alpha.19"></a>
 
@@ -131,8 +138,10 @@ The first users began to test, and to create content in, our web open source edi
 
 ## Fix
 
-- the component displayed line numbers from 1 but the highlight used to expect line numbers from 0. this is now fixed, highlight will also begin with 1.
-- add empty lines if line numbers has to be displayed to avoid sizing problem regarding font-size
+- the component displayed line numbers from 1 but the highlight used to expect
+  line numbers from 0. this is now fixed, highlight will also begin with 1.
+- add empty lines if line numbers has to be displayed to avoid sizing problem
+  regarding font-size
 
 <a name="1.0.0-alpha.17"></a>
 
@@ -140,7 +149,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- display optional line numbers [#115](https://github.com/deckgo/deckdeckgo/issues/115)
+- display optional line numbers
+  [#115](https://github.com/deckgo/deckdeckgo/issues/115)
 
 <a name="1.0.0-alpha.16"></a>
 
@@ -172,7 +182,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add new properties and events in case you would like optionally set the code block as `editable`
+- add new properties and events in case you would like optionally set the code
+  block as `editable`
 
 <a name="1.0.0-alpha.12"></a>
 
@@ -180,7 +191,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- style: add a variable for the display of the shadowed code element ([e00a3ea](https://github.com/deckgo/deckdeckgo/commit/e00a3ea170330de867cfedcdd0390c56988ae2f7))
+- style: add a variable for the display of the shadowed code element
+  ([e00a3ea](https://github.com/deckgo/deckdeckgo/commit/e00a3ea170330de867cfedcdd0390c56988ae2f7))
 
 <a name="1.0.0-alpha.11"></a>
 
@@ -188,7 +200,9 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Breaking changes
 
-- refactor CSS4 margin variable to give access to the all margin element not just margin-bottom ((ec4d260)[https://github.com/deckgo/deckdeckgo-highlight-code/commit/ec4d2602d3fa10e8e1ddf0ee20790d1fd6646720])
+- refactor CSS4 margin variable to give access to the all margin element not
+  just margin-bottom
+  ((ec4d260)[https://github.com/deckgo/deckdeckgo-highlight-code/commit/ec4d2602d3fa10e8e1ddf0ee20790d1fd6646720])
 
 <a name="1.0.0-alpha.10"></a>
 
@@ -196,9 +210,12 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- add a method to load or reload the component ([ab11a8c](https://github.com/deckgo/deckdeckgo-highlight-code/commit/ab11a8c3be46bb7b6f3cdee6d9c7b0119baea595))
-- loading of component with src and particular language ([ed88c8e](https://github.com/deckgo/deckdeckgo-highlight-code/commit/ed88c8e92aceebeb7d673819a8bed616d8ed8022))
-- prevent error in case language is set as empty ([3790fc9](https://github.com/deckgo/deckdeckgo-highlight-code/commit/3790fc94da019047df7792628478f7a7d0c390d5))
+- add a method to load or reload the component
+  ([ab11a8c](https://github.com/deckgo/deckdeckgo-highlight-code/commit/ab11a8c3be46bb7b6f3cdee6d9c7b0119baea595))
+- loading of component with src and particular language
+  ([ed88c8e](https://github.com/deckgo/deckdeckgo-highlight-code/commit/ed88c8e92aceebeb7d673819a8bed616d8ed8022))
+- prevent error in case language is set as empty
+  ([3790fc9](https://github.com/deckgo/deckdeckgo-highlight-code/commit/3790fc94da019047df7792628478f7a7d0c390d5))
 
 <a name="1.0.0-alpha.9"></a>
 
@@ -206,11 +223,14 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Fix and rollback
 
-- if not shadowed the component was not compatible if used in other shadowed components, therefore rollback to a shadowed component ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
+- if not shadowed the component was not compatible if used in other shadowed
+  components, therefore rollback to a shadowed component
+  ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
 
 ### Features
 
-- add height new CSS4 variables to style the highlighted code ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
+- add height new CSS4 variables to style the highlighted code
+  ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
 
 <a name="1.0.0-alpha.8"></a>
 
@@ -218,7 +238,9 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Fix
 
-- when the component was used in shadowed component, sometimes the slot content was not loaded ([6df0d0e](https://github.com/deckgo/deckdeckgo-highlight-code/commit/6df0d0e6802afeba2277caa90b1b0e4ddcc39fed))
+- when the component was used in shadowed component, sometimes the slot content
+  was not loaded
+  ([6df0d0e](https://github.com/deckgo/deckdeckgo-highlight-code/commit/6df0d0e6802afeba2277caa90b1b0e4ddcc39fed))
 
 <a name="1.0.0-alpha.7"></a>
 
@@ -226,11 +248,13 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- this Web Component isn't shadowed anymore to give you full access to its style ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
+- this Web Component isn't shadowed anymore to give you full access to its style
+  ([#5](https://github.com/deckgo/deckdeckgo-highlight-code/issues/5))
 
 ### Fix
 
-- synchronize load languages across multiple components ([44fac83](https://github.com/deckgo/deckdeckgo-highlight-code/commit/44fac8378d6ea0d88ccb67175e3dcca2f0b9bb52))
+- synchronize load languages across multiple components
+  ([44fac83](https://github.com/deckgo/deckdeckgo-highlight-code/commit/44fac8378d6ea0d88ccb67175e3dcca2f0b9bb52))
 
 <a name="1.0.0-alpha.6"></a>
 
@@ -238,7 +262,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Refactor
 
-- export anchor interface declaration ([680a2d3](https://github.com/deckgo/deckdeckgo-highlight-code/commit/680a2d30746a9cb86c617433b46ccb5c30894491))
+- export anchor interface declaration
+  ([680a2d3](https://github.com/deckgo/deckdeckgo-highlight-code/commit/680a2d30746a9cb86c617433b46ccb5c30894491))
 
 <a name="1.0.0-alpha.5"></a>
 
@@ -246,7 +271,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Bugs
 
-- highlight code lines: first element might be a text ([#4](https://github.com/deckgo/deckdeckgo-highlight-code/issues/4))
+- highlight code lines: first element might be a text
+  ([#4](https://github.com/deckgo/deckdeckgo-highlight-code/issues/4))
 
 <a name="1.0.0-alpha.4"></a>
 
@@ -254,8 +280,10 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Bugs
 
-- slot code: unescape characters ([#2](https://github.com/deckgo/deckdeckgo-highlight-code/issues/2))
-- CSS text-align per default left ([#3](https://github.com/deckgo/deckdeckgo-highlight-code/issues/3))
+- slot code: unescape characters
+  ([#2](https://github.com/deckgo/deckdeckgo-highlight-code/issues/2))
+- CSS text-align per default left
+  ([#3](https://github.com/deckgo/deckdeckgo-highlight-code/issues/3))
 
 <a name="1.0.0-alpha.3"></a>
 
@@ -263,7 +291,8 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Features
 
-- highlight code lines ([#1](https://github.com/deckgo/deckdeckgo-highlight-code/issues/1))
+- highlight code lines
+  ([#1](https://github.com/deckgo/deckdeckgo-highlight-code/issues/1))
 
 <a name="1.0.0-alpha.2"></a>
 
@@ -271,4 +300,6 @@ The first users began to test, and to create content in, our web open source edi
 
 ### Breaking changes
 
-- this Web Component doesn't provide a scroll assist method anymore but rather provide a method `findNextAnchor()` which would provide you the information about the next anchor position to scroll to
+- this Web Component doesn't provide a scroll assist method anymore but rather
+  provide a method `findNextAnchor()` which would provide you the information
+  about the next anchor position to scroll to

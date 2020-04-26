@@ -1,10 +1,15 @@
 # Highlight Code
 
-The "Highlight Code" component is an extra component which let you highlight code easily.
+The "Highlight Code" component is an extra component which let you highlight
+code easily.
 
-To highlight your code, this component is using [Prism.js](https://prismjs.com) from [Lea Verou](http://lea.verou.me) and [James DiGioia](https://twitter.com/jamesdigioia).
+To highlight your code, this component is using [Prism.js](https://prismjs.com)
+from [Lea Verou](http://lea.verou.me) and
+[James DiGioia](https://twitter.com/jamesdigioia).
 
-Moreover, per default, your code will be displayed in form of a stylish "windowed" card as the amazing [carbon](https://carbon.now.sh), the tool to create and share beautiful images of your source code, would do.
+Moreover, per default, your code will be displayed in form of a stylish
+"windowed" card as the amazing [carbon](https://carbon.now.sh), the tool to
+create and share beautiful images of your source code, would do.
 
 ## Table of contents
 
@@ -53,13 +58,17 @@ public static void main(String args[]) {
 
 ## Installation
 
-This component could be added to your web application using the following methods.
+This component could be added to your web application using the following
+methods.
 
-> If you are using our Starter Kit this template is included. You don't need to install it so therefore you should skip the "Installation" chapter.
+> If you are using our Starter Kit this template is included. You don't need to
+> install it so therefore you should skip the "Installation" chapter.
 
 ### Using DeckDeckGo Highlight Code from a CDN
 
-It's recommended to use [unpkg](https://unpkg.com/) to use the [DeckDeckGo] Code from a CDN. To do so, add the following include script in the main HTML file of your project:
+It's recommended to use [unpkg](https://unpkg.com/) to use the [DeckDeckGo] Code
+from a CDN. To do so, add the following include script in the main HTML file of
+your project:
 
 ```
 <script type="module" src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
@@ -68,7 +77,9 @@ It's recommended to use [unpkg](https://unpkg.com/) to use the [DeckDeckGo] Code
 
 ### Install DeckDeckGo Highlight Code from NPM
 
-Install [DeckDeckGo] - Highlight Code in your project from [npm](https://www.npmjs.com/package/@deckdeckgo/highlight-code) using the following command:
+Install [DeckDeckGo] - Highlight Code in your project from
+[npm](https://www.npmjs.com/package/@deckdeckgo/highlight-code) using the
+following command:
 
 ```bash
 npm install @deckdeckgo/highlight-code
@@ -76,7 +87,11 @@ npm install @deckdeckgo/highlight-code
 
 ### Framework integration
 
-The [Stencil documentation](https://stenciljs.com/docs/overview) provide examples of framework integration for [Angular](https://stenciljs.com/docs/angular), [React](https://stenciljs.com/docs/react), [Vue](https://stenciljs.com/docs/vue) and [Ember](https://stenciljs.com/docs/ember).
+The [Stencil documentation](https://stenciljs.com/docs/overview) provide
+examples of framework integration for
+[Angular](https://stenciljs.com/docs/angular),
+[React](https://stenciljs.com/docs/react), [Vue](https://stenciljs.com/docs/vue)
+and [Ember](https://stenciljs.com/docs/ember).
 
 That being said, commonly, you might either `import` or `load` it:
 
@@ -95,11 +110,14 @@ deckDeckGoElement();
 
 ## Usage
 
-The `<deckgo-highlight-code/>` Web Component will highlight your code using [Prism.js](https://prismjs.com).
+The `<deckgo-highlight-code/>` Web Component will highlight your code using
+[Prism.js](https://prismjs.com).
 
-You could inject a `<code/>` tag using slot or provide an URI to the file containing your code.
+You could inject a `<code/>` tag using slot or provide an URI to the file
+containing your code.
 
-If you are displaying your code in an Ubuntu terminal, you could also displays a text in the toolbar (header) using the slot `user`.
+If you are displaying your code in an Ubuntu terminal, you could also displays a
+text in the toolbar (header) using the slot `user`.
 
 ### Properties
 
@@ -119,13 +137,17 @@ The `<deckgo-highlight-code/>` expose the following properties:
 
 ### Fonts
 
-Per default, the font `monospace` is used to display the code for the terminal `carbon` or `none`. You can overwrite this option using the following CSS variables.
+Per default, the font `monospace` is used to display the code for the terminal
+`carbon` or `none`. You can overwrite this option using the following CSS
+variables.
 
-If you display your code in an `ubuntu` terminal, the related `Ubuntu` fonts are going to be fetched and injected in your page.
+If you display your code in an `ubuntu` terminal, the related `Ubuntu` fonts are
+going to be fetched and injected in your page.
 
 ### Styling
 
-The `<deckgo-highlight-code/>` could be styled using the following CSS4 variables:
+The `<deckgo-highlight-code/>` could be styled using the following CSS4
+variables:
 
 | CSS4 variable                                     | Default                  | Note                                                                              |
 | ------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------- |
@@ -165,7 +187,8 @@ The `<deckgo-highlight-code/>` could be styled using the following CSS4 variable
 
 #### Carbon
 
-Furthermore the following styles apply if the code is displayed as a "carbon" terminal card (`terminal` property equals to `carbon`).
+Furthermore the following styles apply if the code is displayed as a "carbon"
+terminal card (`terminal` property equals to `carbon`).
 
 | CSS4 variable                                                  | Default                        | Note                                                    |
 | -------------------------------------------------------------- | ------------------------------ | ------------------------------------------------------- |
@@ -191,7 +214,8 @@ Furthermore the following styles apply if the code is displayed as a "carbon" te
 
 #### Ubuntu
 
-If the code is displayed as an "ubuntu" terminal card (`terminal` property equals to `ubuntu`) the following styles could be applied.
+If the code is displayed as an "ubuntu" terminal card (`terminal` property
+equals to `ubuntu`) the following styles could be applied.
 
 | CSS4 variable                                                    | Default                                          | Note                                               |
 | ---------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- |
@@ -254,7 +278,8 @@ The `<deckgo-highlight-code/>` will bubble the following events:
 
 #### Code did change
 
-Emitted when the code was edited (see attribute `editable`). Propagate the root component itself.
+Emitted when the code was edited (see attribute `editable`). Propagate the root
+component itself.
 
 ```
 codeDidChange(HTMLElement);
@@ -262,7 +287,9 @@ codeDidChange(HTMLElement);
 
 ### Examples
 
-You could find the examples in the [src/index.html](https://github.com/deckgo/deckdeckgo/tree/master/webcomponents/highlight-code/src/index.html) of the project.
+You could find the examples in the
+[src/index.html](https://github.com/deckgo/deckdeckgo/tree/master/webcomponents/highlight-code/src/index.html)
+of the project.
 
 ```
 <deckgo-highlight-code src="https://domain.com/yourfile.js">
